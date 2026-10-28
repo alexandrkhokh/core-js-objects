@@ -48,7 +48,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="npm.lint:fix">
+  <component name="RunManager" selected="npm.test">
     <configuration name="lint:fix" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -71,8 +71,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.lint:fix" />
         <item itemvalue="npm.test" />
+        <item itemvalue="npm.lint:fix" />
       </list>
     </recent_temporary>
   </component>
@@ -94,7 +94,7 @@
       <workItem from="1793193584613" duration="954000" />
       <workItem from="1793194758386" duration="1397000" />
       <workItem from="1793196177685" duration="56000" />
-      <workItem from="1793196243782" duration="524000" />
+      <workItem from="1793196243782" duration="2129000" />
     </task>
     <servers />
   </component>
