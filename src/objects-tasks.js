@@ -103,7 +103,7 @@ function compareObjects(obj1, obj2) {
  *    isEmptyObject({a: 1}) => false
  */
 function isEmptyObject(obj) {
-  return Object.keys(obj).length === 0;
+  return !Object.keys(obj).length;
 }
 
 /**
@@ -138,8 +138,7 @@ function makeImmutable(obj) {
  */
 function makeWord(lettersObject) {
   const arr = [];
-  const objEntries = Object.entries(lettersObject);
-  objEntries.forEach(([letter, positions]) => {
+  Object.entries(lettersObject).forEach(([letter, positions]) => {
     positions.forEach((pos) => {
       arr[pos] = letter;
     });
@@ -192,8 +191,8 @@ function Rectangle(/* width, height */) {
  *    [1,2,3]   =>  '[1,2,3]'
  *    { height: 10, width: 20 } => '{"height":10,"width":20}'
  */
-function getJSON(/* obj */) {
-  throw new Error('Not implemented');
+function getJSON(obj) {
+  return JSON.stringify(obj);
 }
 
 /**
@@ -207,8 +206,8 @@ function getJSON(/* obj */) {
  *    const r = fromJSON(Circle.prototype, '{"radius":10}');
  *
  */
-function fromJSON(/* proto, json */) {
-  throw new Error('Not implemented');
+function fromJSON(proto, json) {
+  return Object.assign(Object.create(proto), JSON.parse(json));
 }
 
 /**
