@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da6d6aad-95c7-4cf9-98f6-b15ac4d9033e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/objects-tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects-tasks.js" afterDir="false" />
     </list>
@@ -19,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="$PROJECT_DIR$/../../../OSPanelNew/modules/PHP-8.4/PHP/php.exe" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -95,6 +96,7 @@
       <workItem from="1793194758386" duration="1397000" />
       <workItem from="1793196177685" duration="56000" />
       <workItem from="1793196243782" duration="3351000" />
+      <workItem from="1793202641379" duration="1015000" />
     </task>
     <servers />
   </component>
